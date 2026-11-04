@@ -17,7 +17,8 @@
     ```
 4.  Сборка в exe:
     ```bash
-    pyinstaller --onefile --windowed --name="GraphBuilder" --icon=logarithm.ico --hidden-import=matplotlib.backends.backend_tkagg main.py
+    pyinstaller --onefile --windowed --name="GraphBuilder" --icon=logarithm.ico 
+    --hidden-import=matplotlib.backends.backend_tkagg main.py
     ```
 ## Использование
 ### Запуск программы
