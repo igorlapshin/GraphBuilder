@@ -22,7 +22,7 @@
     ```
 ## Использование
 ### Запуск программы
-    Запустите: python main.py
+    Запустите: python main.py или GraphBuilder.exe
 ## Структура проекта
 -   `main.py`: Точка входа.
 -   `gui.py`: Интерфейс (Tkinter).
