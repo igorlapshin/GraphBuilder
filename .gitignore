@@ -1,0 +1,19 @@
+# Игнорировать виртуальное окружение
+.venv/
+venv/
+build/
+dist/
+tests/
+# Кеш и временные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+
+# IDE-шные файлы
+.vscode/
+.idea/
+
+# Операционная система
+Thumbs.db
