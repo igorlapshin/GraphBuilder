@@ -16,7 +16,8 @@
     pip install -r requirements.txt
     ```
 4.  Сборка в exe:
-    ```pyinstaller --onefile --windowed --name="GraphBuilder" --icon=logarithm.ico --hidden-import=matplotlib.backends.backend_tkagg main.py
+    ```bash
+    pyinstaller --onefile --windowed --name="GraphBuilder" --icon=logarithm.ico --hidden-import=matplotlib.backends.backend_tkagg main.py
     ```
 ## Использование
 ### Запуск программы
