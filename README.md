@@ -3,8 +3,8 @@
 ## Установка
 1.  Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/igorlapshin/GtaphBuilder.git
-    cd GtaphBuilder
+    git clone https://github.com/igorlapshin/GraphBuilder.git
+    cd GraphBuilder
     ```
 2.  Создайте и активируйте виртуальное окружение:
     ```bash
