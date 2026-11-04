@@ -16,7 +16,8 @@
     pip install -r requirements.txt
     ```
 4.  Сборка в exe:
-    ```pyinstaller --onefile --windowed --name="GraphBuilder" --icon=logarithm.ico --hidden-import=matplotlib.backends.backend_tkagg main.py
+    ```bash
+    pyinstaller --onefile --windowed --name="GraphBuilder" --icon=logarithm.ico --hidden-import=matplotlib.backends.backend_tkagg main.py
     ```
 ## Использование
 ### Запуск программы
@@ -25,7 +26,7 @@
 -   `main.py`: Точка входа.
 -   `gui.py`: Интерфейс (Tkinter).
 -   `math_engine.py`: Математическая логика.
--   `plotter.py`:Построение графиков
+-   `plotter.py`: Построение графиков.
 -   `history.py`: Логирование действий.
 -   `requirements.txt`: Список зависимостей.
 ## Лицензия
